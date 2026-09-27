@@ -18,7 +18,7 @@ namespace CustomerTracking.API.Controllers
             return Ok(imagnId);
         }
 
-        [HttpPost("SetMainImage")]
+        [HttpPut("SetMainImage")]
         public async Task<IActionResult> SetMainImage([FromBody] SetMainImageCommand command)
         {
             await _mediator.Send(command);
