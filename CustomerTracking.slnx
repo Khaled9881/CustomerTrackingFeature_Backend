@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="CustomerTracking.Application/CustomerTracking.Application.csproj" />
+  <Project Path="CustomerTracking.Domain/CustomerTracking.Domain.csproj" />
+  <Project Path="CustomerTracking.Infrastructure/CustomerTracking.Infrastructure.csproj" />
+  <Project Path="CustomerTracking/CustomerTracking.API.csproj" />
+</Solution>
